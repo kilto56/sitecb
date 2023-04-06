@@ -7,3 +7,25 @@ h1, h2, h3, h4, h5, h6, body, div {
   position: sticky;
   z-index: auto;
 }
+
+.facebook {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 12%;
+  border: solid 1px #4596FF;
+  background-color: #1977F1;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  transition: all;
+  transition-duration: 0.1s;
+  transition-property: all;
+}
+
+.facebook:hover {
+  background-color: #4596FF;
+  border: solid 2px #1977F1;
+  color: black;
+}
