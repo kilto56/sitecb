@@ -17,8 +17,9 @@ h1, h2, h3, h4, h5, h6, body, div {
 .divnav:hover > .menunav{
   color: #FFFFFF;
   background-color: #008800;
-  transition-duration: 0.2s;
+  transition-duration: 0.3s;
   transition-property: all;
+  cursor: pointer;
 }
 
 .divnav{
@@ -36,4 +37,15 @@ h1, h2, h3, h4, h5, h6, body, div {
   padding-bottom: 30px;
   padding-right: 5px;
   margin-top: 30px;
+}
+
+.corps {
+  font-family: Arial;
+  background-color: #fbfaf7;
+  color: black;
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 30px;
+  text-align: justify;
 }
