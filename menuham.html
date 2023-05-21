@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menuham</title>
+    <style>
+        body, html, div {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box {
+            position: absolute;
+            top: -60px;
+        }
+
+        .iconbox {
+            size: 150%;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+        
+        .nav {
+            position: absolute;
+            top: 70px;
+            left: -300px;
+        }
+
+        .list {
+            list-style: none;
+        }
+
+        .list li {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .box[type="checkbox"]:checked ~ .nav {
+            position: absolute;
+            left: 60px;
+            top: 60px;
+            transition-property: all;
+            transition-duration: 600ms;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="checkbox" id="box" class="box">
+        <label for="box" class="iconbox">☰</label>
+        <nav class="nav">
+            <ul class="list">
+                <li>Accueil</li>
+                <li>Le Club</li>
+                <li>À propos</li>
+                <li>Réseaux</li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
