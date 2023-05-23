@@ -3,15 +3,9 @@ h1, h2, h3, h4, h5, h6, body, div {
   margin: 0;
 }
 
-.nav {
+.navdiv {
   position: sticky;
   z-index: auto;
-}
-
-.facebook:hover {
-  background-color: #4596FF;
-  border: solid 2px #1977F1;
-  color: black;
 }
 
 .divnav:hover > .menunav{
@@ -48,4 +42,82 @@ h1, h2, h3, h4, h5, h6, body, div {
   padding-right: 80px;
   padding-bottom: 30px;
   text-align: justify;
+}
+
+.navbarpc {
+  float: right; 
+  position: absolute; 
+  right: 0%; 
+  top: 0%; 
+  display : flex; 
+  flex-direction: row; 
+  height: 90px; 
+  padding-top: 30px;
+}
+
+.navbartel {
+  position:absolute;
+  top: -200px;
+}
+
+.box {
+  position: absolute;
+  top: -60px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li {
+  padding: 0%;
+  margin: 0%;
+}
+
+.iconbox {
+  position: absolute;
+  top: -300px;
+}
+
+@media only screen and (max-width: 750px) {
+  .navbarpc {
+    position: absolute;
+    top: -200px;
+  }
+
+  .navbartel {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+  .iconbox {
+    font-size: 150%;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    z-index: auto;
+  }
+
+  .nav {
+    width: 150px;
+    position: absolute;
+    top: 70px;
+    right: -300px;
+    background-color: white;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  .box[type="checkbox"]:checked ~ .nav {
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    transition-property: all;
+    transition-duration: 600ms;
+  }
 }
