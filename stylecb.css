@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6, body, div {
 .box {
   position: absolute;
   top: -60px;
+  right: 10px;
 }
 
 .list {
@@ -102,15 +103,16 @@ h1, h2, h3, h4, h5, h6, body, div {
   .nav {
     width: 150px;
     position: absolute;
-    top: 70px;
-    right: -300px;
+    right: 0px;
+    top: -300px;
     background-color: white;
-    padding-right: 100px;
+    padding-right: 70px;
     padding-bottom: 200px;
     font-family: Arial;
     text-decoration: none;
     color: black;
     font-size: 20px;
+    border-radius: 0px 0px 0px 15px;
   }
 
   .box[type="checkbox"]:checked ~ .nav {
