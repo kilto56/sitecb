@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6, body, div {
   list-style: none;
 }
 
-.list li {
+.list div li {
   padding: 0%;
   margin: 0%;
 }
@@ -79,6 +79,8 @@ h1, h2, h3, h4, h5, h6, body, div {
   position: absolute;
   top: -300px;
 }
+
+
 
 @media only screen and (max-width: 750px) {
   .navbarpc {
@@ -121,5 +123,18 @@ h1, h2, h3, h4, h5, h6, body, div {
     top: 60px;
     transition-property: all;
     transition-duration: 600ms;
+  }
+
+    .divnavtel:hover > li {
+    color: #FFFFFF;
+    background-color: #008800;
+    transition-duration: 0.3s;
+    transition-property: all;
+    cursor: pointer;
+  }
+
+  .divnavtel {
+    border-radius: 3px 3px 3px 3px;
+
   }
 }
