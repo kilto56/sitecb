@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5, h6, body, div {
 
 .list {
   list-style: none;
+  margin-top: 40px;
 }
 
 .list div li {
@@ -116,14 +117,14 @@ h1, h2, h3, h4, h5, h6, body, div {
     position: absolute;
     top: 25px;
     right: 30px;
-    z-index: auto;
+    z-index: 1;
   }
 
   .nav {
     width: 150px;
     position: absolute;
     right: 0px;
-    top: -350px;
+    top: -370px;
     background-color: white;
     padding-right: 70px;
     padding-bottom: 200px;
@@ -132,12 +133,17 @@ h1, h2, h3, h4, h5, h6, body, div {
     color: black;
     font-size: 20px;
     border-radius: 0px 0px 0px 15px;
+    border: solid 5px #008800;
+    border-style: double;
+    border-top-color: white;
+    border-right-color: white;
+    z-index: auto;
   }
 
   .box[type="checkbox"]:checked ~ .nav {
     position: absolute;
     right: 0px;
-    top: 60px;
+    top: 0px;
     transition-property: all;
     transition-duration: 600ms;
   }
