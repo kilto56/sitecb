@@ -100,6 +100,11 @@ h1, h2, h3, h4, h5, h6, body, div {
   color: white;
 }
 
+.nightmode[type="checkbox"]:checked ~ .corps {
+  color: #fbfaf7;
+  background-color: #46413b;
+}
+
 @media only screen and (max-width: 750px) {
   .navbarpc {
     position: absolute;
