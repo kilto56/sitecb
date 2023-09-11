@@ -3,6 +3,10 @@ h1, h2, h3, h4, h5, h6, body, div {
     margin: 0;
   }
   
+body {
+  background-color: #46413b;
+}
+
   .navdiv {
     position: sticky;
     z-index: auto;
@@ -43,6 +47,7 @@ h1, h2, h3, h4, h5, h6, body, div {
     padding-right: 80px;
     padding-bottom: 30px;
     text-align: justify;
+    margin-bottom: 10px;
   }
   
   .navbarpc {
@@ -170,3 +175,20 @@ h1, h2, h3, h4, h5, h6, body, div {
       border-radius: 5px 5px 5px 5px;
     }
   }
+
+  .mainredirectionbutton {
+    background-color: #C3B753;
+    padding: 9px 15px 9px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 0px;
+    border-radius: 15px;
+    transform-origin: left;
+    transition-property: background-color, padding-right;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    float: right;
+}
+
+.mainredirectionbutton:hover {
+    background-color: #a19845;
+}
