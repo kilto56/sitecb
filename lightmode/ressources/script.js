@@ -5,9 +5,9 @@ buttonRedirectionMainPageOne.addEventListener("click", redirectOne);
 buttonRedirectionMainPageTwo.addEventListener("click", redirectTwo);
 
 function redirectOne() {
-    location.replace("../sitecb/lightmode/le-club.html");
+    location.replace("le-club.html");
 };
 
 function redirectTwo() {
-    location.replace("../sitecb/lightmode/à-propos.html")
+    location.replace("à-propos.html")
 };
