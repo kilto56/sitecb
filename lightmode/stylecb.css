@@ -186,3 +186,29 @@ h1, h2, h3, h4, h5, h6, body, div {
 .mainredirectionbutton:hover {
   background-color: #005f00;
 }
+
+.mainimage {
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.sectionpresentation {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.soussectionpresentation {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.soussectionpresentation p {
+  padding: 5px;
+}
+
+.corpspresentation {
+  display: flex;
+  flex-direction: column;
+}

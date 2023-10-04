@@ -192,3 +192,29 @@ body {
 .mainredirectionbutton:hover {
     background-color: #a19845;
 }
+
+.mainimage {
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.sectionpresentation {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.soussectionpresentation {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.soussectionpresentation p {
+  padding: 5px;
+}
+
+.corpspresentation {
+  display: flex;
+  flex-direction: column;
+}
