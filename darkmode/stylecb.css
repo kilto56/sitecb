@@ -182,7 +182,9 @@ body {
     }
 
     .mainimage {
-      margin: auto;
+      margin-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -231,4 +233,10 @@ body {
 .corpspresentation {
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (min-width: 904px) {
+  .soussectionpresentation {
+    width: 500px;
+  }
 }
