@@ -180,6 +180,10 @@ body {
       flex-direction: column;
       margin-bottom: 50px;
     }
+
+    .mainimage {
+      margin: auto;
+    }
   }
 
   .mainredirectionbutton {
@@ -203,12 +207,11 @@ body {
   max-height: 300px;
   max-width: 300px;
   border-radius: 10px;
-  margin: auto;
 }
 
 .sectionpresentation {
   display: flex;
-  margin-bottom: 50px;
+  margin: auto;
 }
 
 .soussectionpresentation {
@@ -219,6 +222,10 @@ body {
 
 .soussectionpresentation p {
   padding: 5px;
+}
+
+.sectionpresentation img {
+  margin-bottom: 50px;
 }
 
 .corpspresentation {

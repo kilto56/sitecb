@@ -172,7 +172,15 @@ h1, h2, h3, h4, h5, h6, body, div {
     flex-direction: column;
     margin-bottom: 50px;
   }
+
+  .mainimage {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+
+
 
 .mainredirectionbutton {
   background-color: #008800;
@@ -197,12 +205,11 @@ h1, h2, h3, h4, h5, h6, body, div {
   max-height: 300px;
   max-width: 300px;
   border-radius: 10px;
-  margin: auto;
 }
 
 .sectionpresentation {
   display: flex;
-  margin-bottom: 50px;
+  margin: auto;
 }
 
 .soussectionpresentation {
@@ -215,7 +222,17 @@ h1, h2, h3, h4, h5, h6, body, div {
   padding: 5px;
 }
 
+.sectionpresentation img {
+  margin-bottom: 50px;
+}
+
 .corpspresentation {
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (min-width: 904px) {
+  .soussectionpresentation {
+    width: 500px;
+  }
 }
