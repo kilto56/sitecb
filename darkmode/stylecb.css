@@ -214,20 +214,19 @@ body {
 .sectionpresentation {
   display: flex;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .soussectionpresentation {
   display: flex;
   flex-direction: column;
   padding: 5px;
+  margin: auto;
 }
 
 .soussectionpresentation p {
   padding: 5px;
-}
-
-.sectionpresentation img {
-  margin-bottom: 50px;
+  margin: 0%;
 }
 
 .corpspresentation {
