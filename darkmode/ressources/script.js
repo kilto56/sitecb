@@ -5,9 +5,9 @@ buttonRedirectionMainPageOne.addEventListener("click", redirectionOne);
 buttonRedirectionMainPageTwo.addEventListener("click", redirectionTwo);
 
 function redirectionOne() {
-    location.replace("../darkmode/le-club.html");
+    location.replace("le-club.html");
 };
 
 function redirectionTwo() {
-    location.replace("../darkmode/à-propos.html");
+    location.replace("à-propos.html");
 };
