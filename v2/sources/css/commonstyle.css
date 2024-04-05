@@ -1,0 +1,67 @@
+:root {
+    --color-white: white;
+    --color-beige: #FBFAF7;
+    --color-light-green: #009d00;
+    --color-dark-green: #005d00;
+    --color-black-green: #002200;
+    --color-grey: #333333;
+    --color-shadow: #F1EBEB;
+
+    --color-steal: #524C46;
+    --color-darkgrey: #46413B;
+    --color-light-gold: #C3B753;
+    --color-dark-gold: #a19845;
+    --color-black-gold: rgb(34, 32, 0);
+    --color-grey: #333333;
+    --color-black-shadow: #424141;
+}
+
+.changestyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.changestyle div {
+    margin-left: 25px;
+    height: 25px;
+    width: 60px;
+    border: solid 1px lightgrey;
+    border-radius: 50px;
+    background-color: var(--color-beige);
+    cursor: pointer;
+    box-shadow: inset 3px 3px 1px var(--color-shadow);
+}
+
+.changestyle div div {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    position: relative;
+    top: 2px;
+    right: 22px;
+    transition: all 0.5s ease;
+    box-shadow: inset -3px -3px 1px var(--color-shadow);
+}
+
+.clicked-div {
+    margin-left: 25px;
+    height: 25px;
+    width: 60px;
+    border: solid 1px lightgrey;
+    border-radius: 50px;
+    background-color: var(--color-darkgrey);
+    cursor: pointer;
+    box-shadow: inset 3px 3px 1px var(--color-black-shadow);
+}
+
+.clicked {
+    height: 20px;
+    width: 20px;
+    background-color: var(--color-darkgrey);
+    position: relative;
+    top: 2px;
+    right: -11px;
+    transition: all 0.5s ease;
+    box-shadow: inset -3px -3px 1px var(--color-black-shadow);
+}

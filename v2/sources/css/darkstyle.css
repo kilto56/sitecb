@@ -1,0 +1,21 @@
+:root {
+    --color-white: #524C46;
+    --color-beige: #46413B;
+    --color-light-green: #C3B753;
+    --color-dark-green: #a19845;
+    --color-black-green: #002200;
+    --color-grey: #333333;
+    --color-shadow: #424141;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.page {
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-beige);
+}
