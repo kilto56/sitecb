@@ -1,3 +1,4 @@
+/*  Mise en place des variables et page  */
 :root {
     --color-white: white;
     --color-beige: #FBFAF7;
@@ -19,12 +20,17 @@
     background-color: var(--color-beige);
 }
 
+
+/*  Header  */
 .header {
     height: 82px;
     background-color: var(--color-white);
     display: flex;
     justify-content: space-between;
     box-shadow: 0 3px 1px var(--color-shadow);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 .header-left {
@@ -41,4 +47,65 @@
 .header-img img {
     height: 60px;
     margin-left: 5px;
+}
+
+/*  nav bar  */
+.nav-bar {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-bar-button {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 62px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.nav-bar-button:hover {
+    color: var(--color-light-green);
+    transition: all 0.5s ease;
+}
+
+/*  Intro  */
+.intro-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.intro-page-img img {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    @media only screen and (max-width: 550px) {
+        height: 100%;
+        width: auto;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.intro-page-img h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    top: -120px;
+}
+
+.content {
+    background-color: #009d00;
+    z-index: 0;
+    height: 200px;
 }
