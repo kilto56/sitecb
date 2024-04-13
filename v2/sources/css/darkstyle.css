@@ -31,6 +31,10 @@
     position: fixed;
     z-index: 1;
     width: 100%;
+    margin-top: -40%;
+    @media only screen and (max-width: 550px) {
+        margin-top: -400px;   
+    }
 }
 
 .header-left {
@@ -102,4 +106,27 @@
     text-align: left;
     position: relative;
     top: -120px;
+}
+
+.content {
+    z-index: 0;
+    margin-top: 40%;
+    padding: 15px;
+    @media only screen and (max-width: 550px) {
+        margin-top: 400px;   
+    }
+}
+
+.content h1 {
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content h1 span {
+    color: var(--color-dark-green);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
